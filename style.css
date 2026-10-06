@@ -17,19 +17,6 @@ canvas {
   margin: 0 auto;
 }
 
-.btn-group .btn-outline-primary {
-  color: #384D98;
-  border-color: #384D98;
-  background: #c6e0f8;
-}
-
-
-.btn-group .btn-outline-primary:hover {
-  color: white;
-  background-color: #384D98;
-  border-color: #384D98;
-}
-
 .card-img-overlay .card-title {
   color: #385a98;
 }
