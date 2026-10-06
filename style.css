@@ -1,0 +1,232 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.card-img {
+  width: 95%;
+  height: 95%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-group .btn-outline-primary {
+  color: #384D98;
+  border-color: #384D98;
+  background: #c6e0f8;
+}
+
+
+.btn-group .btn-outline-primary:hover {
+  color: white;
+  background-color: #384D98;
+  border-color: #384D98;
+}
+
+.card-img-overlay .card-title {
+  color: #385a98;
+}
+
+.card-img-overlay {
+  background-color: rgba(34, 68, 119, 0.35);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(199, 244, 249, 0.6);
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+
+
+.video-section-title {
+  width: 90%;
+  max-width: 700px;
+  margin: 50px auto 30px auto;
+  background-color: #c6e0f8;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #224477;
+  border-radius: 6px;
+}
+
+
+
+#section-videos {
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#section-videos .card {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #bdd7ee;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+}
+
+#section-videos .card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+#section-videos .card-body {
+  padding: 20px;
+}
+
+#section-videos .btn-primary {
+  background: #c6e0f8;
+  border: none;
+  color: #224477;
+}
+
+#section-videos .btn-primary:hover {
+  background: #b0d2f2;
+}
+
+
+
+
+.qna-bar {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #c6e0f8;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #224477;
+}
+
+.qna-cards {
+  width: 100%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  margin: 20px 0;
+  display: flex;
+  gap: 24px;
+}
+
+.qna-card {
+  flex: 1;
+  border: 1px solid #bdd7ee;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.qna-card .card-header {
+  background-color: #c6e0f8;
+  padding: 16px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #224477;
+}
+
+.qna-card .card-body {
+  padding: 20px;
+  background: #ffffff;
+}
+
+.qna-card p {
+  margin: 0;
+  font-size: 17px;
+  color: #333;
+}
+
+@media (max-width:720px) {
+  .qna-cards {
+    flex-direction: column;
+  }
+}
+
+
+#section-thanks.section {
+  background-color: #c6e0f8;
+  padding: 16px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #224477;
+}
+
+
+
+.link-container {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.page-title {
+  width: 90%;
+  max-width: 700px;
+  margin: 50px auto 30px auto;
+  background-color: #c6e0f8;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #224477;
+  border-radius: 6px;
+}
+
+.back-home {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

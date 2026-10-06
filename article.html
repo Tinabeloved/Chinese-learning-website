@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>articles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-title" id="art-title">articles</div>
+
+    <div class="back-home" style="margin-top:40px;">
+        <a href="index.html" class="btn btn-primary">Back to homepage</a>
+    </div>
+
+    <script>
+        const articles = {
+            S1: {
+                title: "title1",
+                content: `article1`
+            },
+        };
+
+        const A = new URLSearchParams(window.location.search);
+        const key = A.get("title");
+
+        if (articles[key]) {
+            document.getElementById("art-title").innerText = articles[key].title;
+            document.getElementById("art-content").innerHTML = articles[key].content;
+        } else {
+            console.log("article can't be found")
+        }
+    </script>
+</body>
+
+</html>
